@@ -14,6 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      name: Build Image
       
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
